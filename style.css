@@ -1,0 +1,129 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    margin:0;
+    font-size: 40px;
+}
+h3{
+    margin:0;
+    font-size: 30px;
+}
+.top-section{
+    height: 400px;
+    background: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding: 20px 10px;
+}
+.link-button{
+    background-image: linear-gradient(45deg, tomato, deeppink);
+    text-decoration: none;
+    padding: 5px 15px;
+    color:white;
+    border-radius: 5px;
+}
+.top-section h2{
+    color:deeppink
+}
+.half-width{
+    width:40%;
+    margin-left:5%;
+    padding-left: 2%;
+    float:left;
+}
+.half-width img{
+    width: 80%;
+}
+.biography-section{
+    height: 400px;
+    background: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.work-section{
+    height: 400px;
+    background: url(images/latest-work-bg.png);
+    margin-top: 50px;
+}
+.work-section img{
+    height: 350px;
+    width: 300px;
+}
+.one-third{
+    width:30%;
+    float:left;
+    margin-left: 1%;
+    padding-left: 2%;
+}
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+}
+.container h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+small{
+    display: block;
+}
+.client-section{
+    max-width:1170px;
+    text-align: center;
+    padding: 0 150px;
+    background: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+q{
+    max-width: 600px;
+    color:rgb(41, 37, 37);
+    margin-bottom: 20px;
+}
+.box1{
+    max-width:500px;
+    margin: 0 auto;
+}
+.box1 h5{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+.box1 small{
+margin-bottom:20px;
+color:gray;
+}
+.box2{
+    width:600px;
+    background-image: linear-gradient(45deg,tomato,deeppink);
+    margin:0 auto;
+    padding:30px 0;
+    color:white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.box2 p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.footer-section{
+    margin-top: 120px;
+    text-align: center;
+}
+.footer-section p{
+    font-size: 14px;
+    color: gray;
+}
+.footer-section p::after{ 
+  content:"";
+  display:block;
+  width:1170px;
+  height:1px;
+  background: gray;
+  margin:auto;
+  margin-top:20px;
+}
